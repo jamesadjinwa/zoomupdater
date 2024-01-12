@@ -4,7 +4,11 @@ import requests
 urls = {
     # 'Windows': 'https://zoom.us/client/latest/ZoomInstaller.exe',
     # 'MacOS': 'https://zoom.us/client/latest/Zoom.pkg',
-    'Linux': 'https://zoom.us/client/latest/zoom_amd64.deb'
+    'Debian': 'https://zoom.us/client/latest/zoom_amd64.deb',
+    'Centos': 'https://zoom.us/client/latest/zoom_x86_64.rpm',
+    'openSUSE': 'https://zoom.us/client/latest/zoom_openSUSE_x86_64.rpm',
+    'Arch': 'https://zoom.us/client/latest/zoom_x86_64.pkg.tar.xz',
+    'otherLinux': 'https://zoom.us/client/latest/zoom_x86_64.tar.xz'
 }
 
 # Download executable files for each operating system
